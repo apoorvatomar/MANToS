@@ -1,0 +1,13 @@
+{
+  "source": "spider_nlq_evaluation_100.json",
+  "examples": 100,
+  "end_to_end_execution_correct": 91,
+  "end_to_end_execution_accuracy": 0.91,
+  "db_top1_accuracy": 0.74,
+  "db_top3_recall": 0.97,
+  "db_top5_recall": 0.99,
+  "db_top10_recall": 0.99,
+  "selected_db_accuracy": 0.96,
+  "avg_retries": 0.72,
+  "evaluation_caveat": "Reference-guided pipeline: gold DB and SQL are supplied during correction; not a blind test. 100-row JSON is not the RoBERTa classifier's test metrics."
+}
